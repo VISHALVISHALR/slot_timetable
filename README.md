@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:
+## Date:22.04.2025
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,9 +24,114 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+    <body>
+        <img src="img.png" height="100" width="540"> 
+        <br>
+
+        <table border="1">
+            <caption>SLOT TIMETABLE- VISHAL R</caption>
+            <tr bgcolor ="yellow">
+                <th>Day/Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr bgcolor="cyan">
+                <td >8-10 </td>
+                <td colspan="3"> Free slot</td>
+                <td>EDM</td>
+                <td>Free</td>
+                <td>EDM</td>
+            </tr>
+            <tr bgcolor="cyan">
+                <td>10-12</td>
+                <td>DE</td>
+                <td>MAT</td>
+                <td>FUN C</td>
+                <td>FWAD</td>
+                <td>FUN C</td>
+                <td>EDM</td>
+            </tr>
+            <tr bgcolor="cyan">
+                <td>12-1</td>
+                <td colspan="6">LUNCH</td>
+            </tr>
+            <tr bgcolor="cyan">
+                <td>1-3</td>
+                <td>Free</td>
+                <td>FWAD</td>
+                <td>Mentor</td>
+                <td>DE</td>
+                <td colspan="2">Free slot </td>
+            </tr>
+            <tr bgcolor="cyan">
+                <td>3-5</td>
+                <td colspan="2">Free slot</td>
+                <td colspan="2">Chem</td>
+                <td colspan="2">Free slot</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1" cellspacing="15" cellpadding="2">
+        <tr>
+        <th>S.NO</th>
+        <th>Course Code</th>
+        <th>Course Name</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>19AI414</td>
+            <td>Fundamentals of Web Applications and Designs</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>19AI304</td>
+            <td>Fundamentals of C programming</td>
+            </tr>
+        <tr>
+            <td>3</td>
+            <td>19AI302</td>
+            <td>Engineering Design and Modelling</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>19CY205</td>
+            <td>Principles of Chemistry in Engineering</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>19EY708</td>
+            <td>Career Devolopment and Skills</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>19MA201</td>
+            <td>Calculus and Matrix Algebra </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>19EE404</td>
+            <td>Digital Electronics</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>ECAM-SCOFT</td>
+            <td>Mentor meet</td>
+        </tr>
+        </table>
+        
+    </body>
+</html>
+```
 
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f87e16c6-5e17-4acb-818e-3777e74e5ba6)
 
 
 ## RESULT
